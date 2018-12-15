@@ -15,6 +15,7 @@ import java.math.BigDecimal;
 /**
  * 星星
  * Created by 黄俊龙 on 2016/12/5.
+ * tome on 2018.12.15
  */
 
 public class RatingBar extends LinearLayout {

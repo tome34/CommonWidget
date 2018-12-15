@@ -33,4 +33,5 @@ dependencies {
 
     //
     implementation project(':customview')
+   // implementation 'com.github.tome34:CommonWidget:1.0.0'
 }

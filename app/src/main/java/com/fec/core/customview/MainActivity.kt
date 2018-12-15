@@ -5,6 +5,7 @@ import android.support.v7.app.AppCompatActivity
 import android.view.View
 import com.example.customview.widget.RatingBar
 
+
 class MainActivity : AppCompatActivity() {
     private var mRatingBar: RatingBar? = null
     override fun onCreate(savedInstanceState: Bundle?) {
