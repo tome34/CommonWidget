@@ -13,5 +13,6 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
         mRatingBar = findViewById<View>(R.id.ratingbar) as RatingBar
         mRatingBar?.setStar(3.0F)
+        //1111111111111
     }
 }
