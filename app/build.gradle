@@ -4,6 +4,7 @@ apply plugin: 'kotlin-android'
 
 apply plugin: 'kotlin-android-extensions'
 
+
 android {
     compileSdkVersion 28
     defaultConfig {
@@ -33,5 +34,5 @@ dependencies {
 
     //
     implementation project(':customview')
-   // implementation 'com.github.tome34:CommonWidget:1.0.0'
+   // implementation 'com.github.tome34:CommonWidget:1.0.1'
 }

@@ -3,23 +3,35 @@
 buildscript {
     ext.kotlin_version = '1.2.61'
     repositories {
-        google()
         jcenter()
+       // maven{ url 'http://maven.aliyun.com/nexus/content/groups/public/'} //jcenter国内镜像
+       //maven { url 'https://dl.bintray.com/tangsiyuan/maven' }
+        google()
         maven { url 'https://jitpack.io' }
     }
+   // tasks.getByPath(":wechatRecoderVideoLibrary:javadoc").enabled = false
+
+
     dependencies {
         classpath 'com.android.tools.build:gradle:3.2.0'
         classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version"
 
         // NOTE: Do not place your application dependencies here; they belong
         // in the individual module build.gradle files
+
+        //下面这两句
+        //classpath 'com.github.dcendents:android-maven-gradle-plugin:2.1'
+       // classpath 'com.jfrog.bintray.gradle:gradle-bintray-plugin:1.+'
+
+       // classpath 'com.novoda:bintray-release:0.8.0'
     }
 }
 
 allprojects {
     repositories {
-        google()
         jcenter()
+       // maven{ url 'http://maven.aliyun.com/nexus/content/groups/public/'} //jcenter国内镜像
+        google()
         maven { url 'https://jitpack.io' }
     }
 }
